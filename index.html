@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Random Dog Images</title>
+    <title>Random Doggo Images</title>
     <link rel="shortcut icon" href="#">
     <link rel="stylesheet" href="index.css">
 </head>
@@ -13,9 +13,8 @@
         <h1>Random Doggo Images</h1>
 
         <form id=doggie-form>
-          <label for="random-dog-images-entry">Input a number</label>
-          <input type="text" id="num-of-doggos"
-          placeholder="Default is 3 doggos">
+          <label>Input a number between 1 and 50</label>
+          <input type="text" id="num-of-doggos" placeholder="Default is 3 doggos" min="1" max="50" value = "3" required>
           <input type="submit" value="Get a doggo pic!">
         </form>
         <section class="results hidden">
